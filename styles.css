@@ -1,0 +1,61 @@
+
+html{
+	font-family: arial;
+}
+#header{
+	height:  100px;
+	
+}
+
+#menu{
+	position: absolute;
+	right: 20px;
+	width: 240px;
+}
+.menu-item{
+	display: inline-block;
+	padding: 15px 10px;
+}
+
+#body{
+	text-align: center;
+}
+
+/*#search-wrapper{
+	height: 20px;
+	width: 500px;
+	display: inline-block;
+}*/
+input{
+	height: 20px;
+	width: 500px;
+	margin-bottom: 20px;
+}
+#button-holder{
+
+}
+
+button{
+	padding: 10px;
+}
+
+#footer{
+	/* make sure it's the width of the body */
+	width: 100%;
+	height:  30px;
+	/* give the element absolute posiitoning so that we can put it on the bottom */
+	position: absolute;
+	bottom: 0px;
+	padding-bottom: 5px;
+}
+
+#left-footer{
+	color: black;
+	position: absolute;
+}
+
+#right-footer{
+	position: absolute;
+	right: 20px;
+	color: black;
+}
