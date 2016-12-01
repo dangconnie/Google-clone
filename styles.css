@@ -1,0 +1,50 @@
+#header{
+	overflow: hidden;
+	/* float: left;
+	width:  100%; */
+	/* margin-top to get it away from top  */
+	margin-top:  10px;
+}
+
+#menu{
+	float:  right;
+	margin-right: 10px;
+}
+
+.menu-item{
+	/*floated menu items to the left, not the full menu*/
+	float: left;
+	/* added padding to spread items out */
+	padding-left: 15px;
+}
+
+#body{
+	text-align: center;
+	/* width-same amt of blue on both sides */
+	width: 80%;
+	/* margin-same amt of orange on both sides */
+	margin: 100px auto 0px;
+}
+
+#footer{
+	/* when the position is absolute, you need to specify location*/
+	position: absolute;
+	bottom: : 0px;
+	left: 0px;
+	/* we needed the width set to 100% to push "privacy, terms and settings" all the way to the right */
+	width:  100%;
+	overflow: hidden;
+	background-color: #f2f2f2;
+	height: 35px;
+	line-height: 35px;
+}
+
+#left-footer{
+	float: left;
+}
+
+#right-footer{     
+	float: right; 
+	/* used margin-right to move "settings" away from edge of page */
+	margin-right: 10px;
+}
