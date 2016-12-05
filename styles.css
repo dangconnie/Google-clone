@@ -26,11 +26,17 @@
 	margin: 100px auto 0px;
 }
 
+#button-holder button{
+	height: 36px;
+	font-size: 13px;
+}
+
 #footer{
 	/* when the position is absolute, you need to specify location*/
 	position: absolute;
 	bottom: : 0px;
 	left: 0px;
+	bottom: 0px;
 	/* we needed the width set to 100% to push "privacy, terms and settings" all the way to the right */
 	width:  100%;
 	overflow: hidden;
